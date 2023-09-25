@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.btn{
+    padding: 7px 12px;
+    border: 2px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+    color: rgb(119, 8, 8);
+    background-color: aqua;
+}
+
+.topleft{
+    width: 50%;
+    
+   
+}
+
+.topright{
+    width: 50%;
+    
+}
+
+.section1{
+    max-height: 100vh;
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.lkimg{
+    width: 89px;
+}
+
+.topright.akimg{
+    width: 666px;
+
+}
+
+.section2{
+    padding: 54px;
+}
+
+.section2 h1{
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 18px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(51, 21, 55);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 1.3rem;
+
+}
+
+.highlighted{
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.box{
+    list-style-type: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px 0;
+    margin-top: 40px 0;
+    border-collapse: collapse;
+}
+
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+
+.section3 table td{
+    border-bottom: 2px solid black;
+}
+
+.section3 h1{
+    font-size: 1.3rem;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    text-align: center;
+}
+
+.section3{
+    padding-left: 63px;
+    padding-right: 63px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
